@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'impact';
+    src: url(../fonts/impact.ttf) ;
+}
+
+.title{
+    font-family: 'impact';
+    font-size: 40px;
+    font-weight: lighter;
+    color: #404eed;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 1px rgb(255, 253, 253);
+}
+
+.desc{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: lighter;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    -webkit-text-stroke: 2px transparent;
+}
+
+.contgenerador{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-botonsubirimagen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 8px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn{
+    font-family: 'impact';
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: #23272a;
+    color: #ffffff;
+    padding: 4px 10px 4px 10px;
+    border-radius: 9999px;
+    cursor: pointer;
+    border: none;
+}
+
+.btnsubirf{
+    font-family: 'impact';
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: #404eed;
+    color: #ffffff;
+    padding: 4px 10px 4px 10px;
+    border-radius: 9999px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #404eed;
+    transition: all 0.8s ease;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-imagen{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.textosuperior{
+    margin-top: 22px;
+    font-size: 38px;
+    color: white;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-family: 'impact';
+    margin-bottom: 10px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.textoinferior{
+    margin-top: 275px;
+    font-size: 38px;
+    color: white;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-family: 'impact';
+    margin-bottom: 10px;
+    font-weight: bolder;
+    position: relative;
+}
+
+#texto{
+    width: 90%;
+    background-color: transparent !important;
+    position: absolute;
+}
+
+#imagen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-botones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.contbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.inputtext{
+    border-radius: 5px;
+    border: 1px solid #404eed;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-family: 'impact';
+    width: 250px;
+}
+
+.enlances{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    font-size: 20px;
+    color: #404eed;
+    padding: 4px 10px 4px 10px;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.link:hover{
+    background-color: #404eed;
+    color: white;
+    transition: all 0.8s ease;
+}
+
+@media screen and (max-width: 500px) {
+    .contenedor-imagen{
+        width: 90%;
+        height: 280px;
+    }
+    .textoinferior{
+        margin-top: 210px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .desc{
+        width: 90%;
+    }
+}
